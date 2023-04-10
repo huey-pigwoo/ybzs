@@ -1,0 +1,9 @@
+{
+  "miniprogramRoot": "./",
+  "projectname": "ybzsTaro",
+  "appid": "testAppId",
+  "setting": {
+    "es6": false,
+    "minified": false
+  }
+}

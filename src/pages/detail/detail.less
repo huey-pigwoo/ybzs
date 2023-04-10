@@ -1,0 +1,82 @@
+// @import "~taro-ui/dist/style/components/input.scss";
+// @import "~taro-ui/dist/style/components/icon.scss";
+
+.page-detail-container {
+    background-color: #f2f3f8;
+    padding: 20px 20px 5vh;
+    min-height: 100vh;
+
+    .formBtnGroup {
+        box-sizing: border-box;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        display: flex;
+        padding: 30px;
+        width: 100vw;
+        background-color: #fff;
+        z-index: 999;
+
+        .formBtn {
+            border-radius: 20Px;
+        }
+
+        .formCancel {
+            background-color: #D5DEF5;
+            color: #3D71E7;
+        }
+        
+        .formSubmit {
+            margin: 0 25px;
+            flex: 1;
+            background-color: #3D71E7;
+            color: #fff;
+        }
+    }
+
+    .detail-img {
+        box-sizing: border-box;
+        display: flex;
+        flex-wrap: wrap;
+        align-content: space-between;
+        height: 0;
+        height: 400px;
+        padding: 20px;
+        margin-bottom: 15px;
+        border-radius: 10Px;
+        border: 1px solid ;
+        color: #fff;
+        background-image: url('../../static/img/img1.jpg');
+        
+        .detail-img-title {
+            font-size: 14Px;
+            font-weight: 900;
+            border-left: 3Px solid blue;
+            padding-left: 5px;
+        }
+
+        .business-detail {
+            display: flex;
+
+            .business-detail-left {
+                display: flex;
+                flex-wrap: wrap;
+                .business-detail-left-address {
+                    font-size: 16Px;
+                    font-weight: 500;
+                }
+                .business-detail-left-time {
+                    font-size: 12Px;
+                }
+            }
+            .business-detail-right {
+                display: flex;
+                flex-wrap: wrap;
+                font-size: 10Px;
+                border-left: 1Px solid #fff;
+                padding-left: 40px;
+            }
+        }
+    }
+}
+

@@ -1,0 +1,67 @@
+@import '../../styles/var.less';
+
+.page-about-container {
+    background-color: #f2f3f8;
+    padding: 20px 20px 50px;
+
+    .about-filter-nav-area {
+        // display: flex;
+        font-size: 14PX;
+
+        .filter-row {
+
+        }
+
+        .switchArea {
+            display: flex;
+            margin-top: 32px;
+        }
+
+        .filter-row {
+            position: relative;
+            margin-bottom: 20px;
+            padding: 0 20px;
+
+            .inputArea {
+                display: flex;
+                position: absolute;
+                right: 0;
+                top: 0;
+                box-sizing: border-box;
+                    .selectInput {
+                        width: 150px;
+                        text-align: center;;
+                    }
+                    .filter-input {
+                        padding-left: 20px;
+                    }
+            }
+
+            .active {
+                width: 100%;
+                background-color: #fff;
+                border-radius: 10Px;
+                padding: 12px 10px;
+            }
+        }
+
+
+        .about-filter-nav-item {
+            margin: 0 20px;
+        }
+
+        .filter-nav-active {
+            color: @primary;
+            font-size: 16PX;
+            font-weight: bold;
+            order: -1;
+        }
+    }
+}
+
+.text-area {
+    Text {
+        font-weight: bold;;
+        padding: 0 5px;
+    }
+}

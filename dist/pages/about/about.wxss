@@ -1,0 +1,73 @@
+/*!*****************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].oneOf[0].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[2].oneOf[0].use[2]!./node_modules/less-loader/dist/cjs.js!./src/pages/about/about.less ***!
+  \*****************************************************************************************************************************************************************************************************************************************/
+.page-about-container {
+  background-color: #f2f3f8;
+  padding: 20rpx 20rpx 50rpx;
+}
+.page-about-container .about-filter-nav-area {
+  font-size: 14PX;
+}
+.page-about-container .about-filter-nav-area .switchArea {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 32rpx;
+}
+.page-about-container .about-filter-nav-area .filter-row {
+  position: relative;
+  margin-bottom: 20rpx;
+  padding: 0 20rpx;
+}
+.page-about-container .about-filter-nav-area .filter-row .inputArea {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  right: 0;
+  top: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+.page-about-container .about-filter-nav-area .filter-row .inputArea .selectInput {
+  width: 150rpx;
+  text-align: center;
+}
+.page-about-container .about-filter-nav-area .filter-row .inputArea .filter-input {
+  padding-left: 20rpx;
+}
+.page-about-container .about-filter-nav-area .filter-row .active {
+  width: 100%;
+  background-color: #fff;
+  border-radius: 10Px;
+  padding: 12rpx 10rpx;
+}
+.page-about-container .about-filter-nav-area .about-filter-nav-item {
+  margin: 0 20rpx;
+}
+.page-about-container .about-filter-nav-area .filter-nav-active {
+  color: #3D71E7;
+  font-size: 16PX;
+  font-weight: bold;
+  -webkit-order: -1;
+      -ms-flex-order: -1;
+          order: -1;
+}
+.text-area Text {
+  font-weight: bold;
+  padding: 0 5rpx;
+}
+
+/*!******************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].oneOf[0].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[2].oneOf[0].use[2]!./node_modules/less-loader/dist/cjs.js!./src/components/AddressPicker/index.less ***!
+  \******************************************************************************************************************************************************************************************************************************************************/
+.addressPick-container {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 5rpx;
+}
+.addressPick-container .at-icon-chevron-down::before {
+  vertical-align: sub;
+}
+

@@ -1,0 +1,199 @@
+/*!**************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].oneOf[0].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[2].oneOf[0].use[2]!./node_modules/less-loader/dist/cjs.js!./src/components/HeaderNav/index.less ***!
+  \**************************************************************************************************************************************************************************************************************************************************/
+.headerNav-container {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  height: 130rpx;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 20rpx;
+  background-color: #3D71E7;
+  color: #fff;
+}
+.headerNav-container .nav_custom_bar_back {
+  font-size: 16Px;
+  font-weight: bolder;
+  margin-right: 20rpx;
+}
+.headerNav-container .header-nav-area {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 14Px;
+}
+.headerNav-container .header-nav-area .header-nav-item {
+  padding: 10rpx;
+}
+.headerNav-container .header-nav-area .active {
+  font-size: 16Px;
+  font-weight: bolder;
+  -webkit-order: -1;
+      -ms-flex-order: -1;
+          order: -1;
+}
+
+/*!********************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].oneOf[0].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[2].oneOf[0].use[2]!./node_modules/less-loader/dist/cjs.js!./src/components/Tag/index.less ***!
+  \********************************************************************************************************************************************************************************************************************************************/
+.tag-container {
+  display: inline-block;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 4Px;
+  text-align: center;
+  margin-right: 15rpx;
+  padding: 2rpx 10rpx;
+  font-size: 14PX;
+  white-space: nowrap;
+}
+.NORMAL {
+  border: 1rpx solid #9a9a9a;
+  color: #9a9a9a;
+}
+.WARNING {
+  background-color: #ff0404;
+  color: #fff;
+}
+
+/*!*********************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].oneOf[0].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[2].oneOf[0].use[2]!./node_modules/less-loader/dist/cjs.js!./src/components/Card/template/template.less ***!
+  \*********************************************************************************************************************************************************************************************************************************************************/
+.temp-container {
+  font-size: 14PX;
+  line-height: 1.2em;
+  color: #9a9a9a;
+}
+.animalTemp {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.animalTemp .tempItem {
+  white-space: nowrap;
+}
+.businessTemp {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.businessTemp .tempItem {
+  white-space: nowrap;
+}
+.businessTemp .companyName {
+  width: 15em;
+  font-size: 14PX;
+  line-height: 16PX;
+  color: #9a9a9a;
+  white-space: nowrap;
+  overflow: hidden;
+  -o-text-overflow: ellipsis;
+     text-overflow: ellipsis;
+}
+
+/*!*********************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].oneOf[0].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[2].oneOf[0].use[2]!./node_modules/less-loader/dist/cjs.js!./src/components/List/index.less ***!
+  \*********************************************************************************************************************************************************************************************************************************************/
+.list-container {
+  background-color: #fff;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 15rpx;
+  margin: 20rpx 0;
+  border-radius: 10Px;
+}
+.list-container .nav-area {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 14PX;
+  margin: 5rpx 0;
+  vertical-align: baseline;
+}
+.list-container .nav-area .nav-item-text {
+  margin-left: 15rpx;
+}
+.list-container .nav-area .active {
+  -webkit-flex-grow: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  -webkit-order: -1;
+      -ms-flex-order: -1;
+          order: -1;
+  margin: 0;
+  border-left: 5rpx solid #3d85e7;
+  font-size: 16PX;
+  font-weight: bolder;
+}
+
+/*!*********************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].oneOf[0].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[2].oneOf[0].use[2]!./node_modules/less-loader/dist/cjs.js!./src/components/Card/index.less ***!
+  \*********************************************************************************************************************************************************************************************************************************************/
+.card-container {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #f8f8f8;
+  margin: 15rpx 0;
+  padding: 15rpx;
+  border: 25rpx;
+  border-radius: 10Px;
+}
+.card-container .card-image {
+  width: 200rpx;
+  height: 200rpx;
+  border-radius: 10Px;
+  border: 1rpx solid;
+}
+.card-container .text-area {
+  width: 60%;
+  margin: 0 20rpx;
+}
+.card-container .text-area .f1 {
+  width: 12em;
+  font-size: 16PX;
+  line-height: 1.5em;
+  color: #101010;
+  font-weight: bold;
+  white-space: nowrap;
+  overflow: hidden;
+  -o-text-overflow: ellipsis;
+     text-overflow: ellipsis;
+}
+.card-container .text-area .f2 {
+  width: 15em;
+  font-size: 14PX;
+  line-height: 1.2em;
+  color: #9a9a9a;
+  white-space: nowrap;
+  overflow: hidden;
+  -o-text-overflow: ellipsis;
+     text-overflow: ellipsis;
+}
+.card-container .tag-area {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: nowrap;
+      -ms-flex-wrap: nowrap;
+          flex-wrap: nowrap;
+  margin: 4rpx 0;
+  overflow: scroll;
+}
+
